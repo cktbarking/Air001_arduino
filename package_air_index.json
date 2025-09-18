@@ -1,0 +1,135 @@
+{
+  "packages": [
+    {
+      "name": "AirM2M",
+      "maintainer": "AirM2M",
+      "websiteURL": "https://arduino.luatos.com",
+      "email": "HalfSweet@HalfSweet.cn",
+      "help": {
+        "online": "https://arduino.luatos.com"
+      },
+      "platforms": [
+        {
+          "name": "Air MCU",
+          "architecture": "AirMCU",
+          "version": "0.6.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://arduino.luatos.com"
+          },
+          "url": "https://github.com/Air-duino/Arduino-AirMCU/releases/download/0.6.0/AirMCU-0.6.0.zip",
+          "archiveFileName": "AirMCU-0.6.0.zip",
+          "checksum": "SHA-256:e7fa4223e53346f42edb3994e8af1e8bd32834ec0d9431085bc177ed38c0c5a2",
+          "size": "6913552",
+          "boards": [
+            {
+              "name": "Air001"
+            },
+            {
+              "name": "AirM2M Core Air001"
+            },
+            {
+              "name": "Air32"
+            },
+            {
+              "name": "Air401"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "AirM2M",
+              "name": "xpack-arm-none-eabi-gcc",
+              "version": "13.2.1-1.1"
+            },
+            {
+              "packager": "AirM2M",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "AirM2M",
+              "name": "AirISP",
+              "version": "1.2.8.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "xpack-arm-none-eabi-gcc",
+          "version": "13.2.1-1.1",
+          "systems": [
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.2.1-1.1/xpack-arm-none-eabi-gcc-13.2.1-1.1-win32-x64.zip",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-13.2.1-1.1-win32-x64.zip",
+              "checksum": "SHA-256:56b18ccb0a50f536332ec5de57799342ff0cd005ca2c54288c74759b51929e4f",
+              "size": "306340878"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v13.2.1-1.1/xpack-arm-none-eabi-gcc-13.2.1-1.1-win32-x64.zip",
+              "archiveFileName": "xpack-arm-none-eabi-gcc-13.2.1-1.1-win32-x64.zip",
+              "checksum": "SHA-256:56b18ccb0a50f536332ec5de57799342ff0cd005ca2c54288c74759b51929e4f",
+              "size": "306340878"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS",
+          "version": "5.7.0",
+          "systems": [
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/ArduinoModule-CMSIS/releases/download/5.7.0/CMSIS-5.7.0.tar.bz2",
+              "archiveFileName": "CMSIS-5.7.0.tar.bz2",
+              "checksum": "SHA-256:0b04b0f214e483bcc360cda985cddc0de8031714019ceabcda4770d510b82bfe",
+              "size": "26151901"
+            }
+          ]
+        },
+        {
+          "name": "AirISP",
+          "version": "1.2.8.0",
+          "systems": [
+            {
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/Air-duino/AirISP/releases/download/1.2.8.0/AirISP-win-x64.zip",
+              "archiveFileName": "AirISP-win-x64.zip",
+              "checksum": "SHA-256:acfe73f0eea634767259493437484508d2e1f7807c7a1a2a874a9ba4545bd92c",
+              "size": "5624985"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/Air-duino/AirISP/releases/download/1.2.8.0/AirISP-win-x86.zip",
+              "archiveFileName": "AirISP-win-x86.zip",
+              "checksum": "SHA-256:cadabca52630b8c769f8fa09c0551acb29e616dc5a2006a84466cd4d6bbd128d",
+              "size": "4960345"
+            },
+            {
+              "host": "arm64-mingw32",
+              "url": "https://github.com/Air-duino/AirISP/releases/download/1.2.8.0/AirISP-win-arm64.zip",
+              "archiveFileName": "AirISP-win-arm64.zip",
+              "checksum": "SHA-256:a9cbfdb0122c2f8fdfc014a3c62072ad0f1c81a05f99874aa852147d11a35d8a",
+              "size": "5350644"
+            },
+            {
+              "host": "arm-mingw32",
+              "url": "https://github.com/Air-duino/AirISP/releases/download/1.2.8.0/AirISP-win-arm.zip",
+              "archiveFileName": "AirISP-win-arm.zip",
+              "checksum": "SHA-256:737a806c126cad07bbc4369672f9cf25663449f5182692e7ba43787aa41d1a81",
+              "size": "4972997"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
