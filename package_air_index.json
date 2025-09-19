@@ -4,7 +4,7 @@
       "name": "AirM2M",
       "maintainer": "AirM2M",
       "websiteURL": "https://arduino.luatos.com",
-      "email": "HalfSweet@HalfSweet.cn",
+      "email": "",
       "help": {
         "online": "https://arduino.luatos.com"
       },
@@ -132,4 +132,5 @@
       ]
     }
   ]
+
 }
